@@ -4,8 +4,8 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
-@Disabled("Not implemented")
 class CircleTest {
+    @Disabled("Not implemented")
     @Test
     void shouldNotHaveAnyCorners() {
         // given
@@ -15,6 +15,7 @@ class CircleTest {
         Assertions.assertEquals(0, circle.getNumberOfVertices());
     }
 
+    @Disabled("Not implemented")
     @Test
     void shouldConsistOfASingleLine() {
         // given

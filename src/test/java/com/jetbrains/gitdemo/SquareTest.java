@@ -6,6 +6,7 @@ import org.junit.jupiter.api.Test;
 
 @Disabled("Not implemented")
 class SquareTest {
+    @Disabled("Not implemented")
     @Test
     void shouldHaveFourCorners() {
         // given
@@ -15,6 +16,7 @@ class SquareTest {
         Assertions.assertEquals(4, square.getNumberOfVertices());
     }
 
+    @Disabled("Not implemented")
     @Test
     void shouldConsistOfFourSides() {
         // given
