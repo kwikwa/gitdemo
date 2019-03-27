@@ -1,7 +1,6 @@
 package com.jetbrains.gitdemo;
 
 import org.junit.jupiter.api.Assertions;
-import org.junit.jupiter.api.Disabled;
 import org.junit.jupiter.api.Test;
 
 class SquareTest {
@@ -14,7 +13,6 @@ class SquareTest {
         Assertions.assertEquals(4, square.getNumberOfVertices());
     }
 
-    @Disabled("Not implemented")
     @Test
     void shouldConsistOfFourSides() {
         // given

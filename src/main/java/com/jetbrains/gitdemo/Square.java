@@ -8,6 +8,6 @@ public class Square implements Shape {
 
     @Override
     public int getNumberOfEdges() {
-        throw new UnsupportedOperationException("Not implemented!");
+        return 4;
     }
 }
