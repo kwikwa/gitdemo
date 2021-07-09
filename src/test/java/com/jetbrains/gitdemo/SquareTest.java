@@ -10,7 +10,7 @@ class SquareTest {
         var square = new Square();
 
         // expect
-        Assertions.assertEquals(4, square.getNumberOfVertices());
+        Assertions.assertEquals(6, square.getNumberOfVertices());
     }
 
     @Test

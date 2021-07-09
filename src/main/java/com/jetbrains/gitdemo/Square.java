@@ -3,7 +3,7 @@ package com.jetbrains.gitdemo;
 public class Square implements Shape {
     @Override
     public int getNumberOfVertices() {
-        return 4;
+        return 6;
     }
 
     @Override
