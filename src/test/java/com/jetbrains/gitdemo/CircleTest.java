@@ -11,7 +11,7 @@ class CircleTest {
         var circle = new Circle();
 
         // expect
-        Assertions.assertEquals(10, circle.getNumberOfVertices());
+        Assertions.assertEquals(8, circle.getNumberOfVertices());
     }
 
     @Disabled("Not implemented")
