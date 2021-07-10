@@ -3,7 +3,7 @@ package com.jetbrains.gitdemo;
 public class Circle implements Shape {
     @Override
     public int getNumberOfVertices() {
-        return 1000;
+        return 20000;
 
     }
 
